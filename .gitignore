@@ -1,0 +1,25 @@
+# Python / ML
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+*.pt
+*.pth
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Env
+.env
+
+# Build
+dist/
+build/
+
+# Datasets
+backend/data/
+metafed_training/PAMAP2_Dataset/
+*.dat
+*.npz
