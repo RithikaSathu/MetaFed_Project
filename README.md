@@ -23,3 +23,18 @@ The system integrates multiple federated algorithms such as:
 - Tools: Vite
 
 ## Project Structure
+backend/ → APIs + training logic  
+frontend/ → UI dashboard  
+metafed_training/ → core FL algorithms  
+
+## Setup Instructions
+
+### Backend
+cd backend
+pip install -r requirements.txt
+python app.py
+
+### Frontend
+cd frontend
+npm install
+npm run dev
